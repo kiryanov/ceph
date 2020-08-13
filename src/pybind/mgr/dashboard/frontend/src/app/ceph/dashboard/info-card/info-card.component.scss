@@ -21,9 +21,12 @@ $card-font-max-size: 21px;
     padding-top: 40px !important;
 
     .card-title {
-      left: 0;
+      border-bottom: 1px solid bd.$white;
+      left: -0.6rem;
+      padding-bottom: 0.4rem;
       position: absolute;
-      top: 0;
+      top: -0.3rem;
+      width: 100%;
     }
   }
 }
